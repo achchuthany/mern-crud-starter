@@ -1,3 +1,57 @@
+# Frontend (React + Vite)
+
+Overview
+
+- Simple React frontend built with Vite. Provides pages to list, add, edit and delete products.
+
+Prerequisites
+
+- Node.js (>=16) and npm/yarn
+
+Install
+
+```bash
+cd frontend
+npm install
+```
+
+Run (development)
+
+```bash
+npm run dev
+```
+
+Build
+
+```bash
+npm run build
+```
+
+Key packages used
+
+- `react`, `react-dom`: UI library
+- `vite`: fast dev server and build tool
+- `react-router`: client-side routing
+- `axios`: HTTP client for API calls
+- `react-hook-form` + `@hookform/resolvers/joi`: form handling with Joi validation
+- `joi`: declarative validation schema used both frontend and backend
+- `bootstrap`: CSS framework for layout and components
+
+Why these packages
+
+- Vite + React provide fast development feedback and small production bundles.
+- `react-hook-form` is lightweight and performant for forms; `joi` keeps validation logic consistent across frontend and backend.
+- `axios` is a familiar, promise-based HTTP client.
+- `bootstrap` gives a quick, responsive UI without custom CSS.
+
+What to improve next
+
+- Centralize API base URL and add environment-specific configs.
+- Add global error handling and toasts for UX.
+- Add client-side pagination and search for products list.
+- Add unit/integration tests (Jest + React Testing Library).
+- Improve accessibility and form UX (inline validation, loading states).
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
