@@ -47,5 +47,3 @@ Suggested next steps for students
 - Add migrations and seed scripts for reproducible databases.
 - Add tests for API endpoints and React components.
 - Containerize with Docker and add a `docker-compose` setup.
-
-If you want, I can create a single commit with these READMEs and push to your GitHub repository (may require credentials or SSH key).
